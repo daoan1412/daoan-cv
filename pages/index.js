@@ -25,6 +25,7 @@ export default function Home() {
           <div className="self-center space-y-1 text-sm flex flex-col">
             <a target="_blank" href="mailto:daoan1412@gmail.com"><i className="fas fa-envelope"></i>&nbsp;	 daoan1412@gmail.com</a>
             <a target="_blank" href="tel:+84967670265"><i className="fas fa-phone"></i>&nbsp;	 0967670265</a>
+            <div><i className="fas fa-birthday-cake"></i>&nbsp;	 14-12-1994</div>
           </div>
         </div>
       </div>
@@ -35,6 +36,15 @@ export default function Home() {
         <div>Mobile developer with 1 years 2 months experience. I work with iOS and Android.</div>
         <div>Having ability to build the backend with common functions, full basic flow to communicate between backend and client</div>
         <div>Learning new languages or platforms quickly with a positive attitude. Can join in all process of product development from initialize to store release</div>
+      </Content>
+      <Content
+        title="Experience"
+        icon="fas fa-briefcase"
+      >
+        <div className="font-semibold">
+          Developer at Techmaster
+        </div>
+        <div className="italic font-light">March 2019 - May 2020</div>
       </Content>
       <Content
         title="My Product"
@@ -99,6 +109,18 @@ export default function Home() {
         <span>
           &nbsp; (my product, contribution rate 100%) The app makes learning new words fun (Rust - 20%; Kotlin, Swift - 80%, .NET - Backend, Offline Sync, firebase crashlytics, authentication)
           </span>
+      </Content>
+      <Content
+        title="Education"
+        icon="fas fa-graduation-cap"
+      >
+        <div className="font-semibold">
+          Hanoi University of Pharmacy
+          </div>
+          <div className="font-light italic">
+            2012 - 2017
+          </div>
+          <div className="mt-4 font-light">Good graduation</div>
       </Content>
       <div className="pt-8"></div>
     </div>
