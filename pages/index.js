@@ -33,7 +33,7 @@ export default function Home() {
         title="Career Profile"
         icon="fas fa-user"
       >
-        <div>Mobile developer with 1 years 2 months experience. I work with iOS and Android.</div>
+        <div>Mobile developer with 2 months experience. I work with iOS, Android and Flutter.</div>
         <div>Having ability to build the backend with common functions, full basic flow to communicate between backend and client</div>
         <div>Learning new languages or platforms quickly with a positive attitude. Can join in all process of product development from initialize to store release</div>
       </Content>
@@ -45,6 +45,10 @@ export default function Home() {
           Developer at Techmaster
         </div>
         <div className="italic font-light">March 2019 - May 2020</div>
+        <div className="font-semibold">
+          Developer at CMC CIST
+        </div>
+        <div className="italic font-light">July 2020 - Present</div>
       </Content>
       <Content
         title="My Product"
@@ -68,6 +72,9 @@ export default function Home() {
         icon="fas fa-key"
       >
         <div>
+          Flutter - good
+            </div>
+        <div>
           Android - good
           </div>
         <div>
@@ -82,9 +89,7 @@ export default function Home() {
         <div>
           React Native, ReactJS, NextJS - intermediate
             </div>
-        <div>
-          Flutter - intermediate
-            </div>
+
         <div>
           .NET (back end) - intermediate
             </div>
@@ -103,13 +108,32 @@ export default function Home() {
         title="Projects"
         icon="fas fa-project-diagram"
       >
-        <span className="font-semibold">
-          Click & See
+        <div>
+          <span className="font-semibold">
+            Click & See
           </span>
-        <span>
-          &nbsp; (my product, contribution rate 100%) The app makes learning new words fun (Rust - 20%; Kotlin, Swift - 80%, .NET - Backend, Offline Sync, firebase crashlytics, authentication)
+          <span>
+            &nbsp; (my product, contribution rate 100%) The app makes learning new words fun (Rust - 20%; Kotlin, Swift - 80%, .NET - Backend, Offline Sync, firebase crashlytics, authentication)
           </span>
+        </div>
+        <div className="mt-4">
+          <span className="font-semibold">
+            CIVAMS Face Admin
+          </span>
+          <span>
+            &nbsp; (contribution rate 100%) The app 
+          </span>
+        </div>
       </Content>
+
+      <Content
+        title="Awards"
+        icon="fas fa-award"
+      >
+        <div>Best Performer of the Year 2020 - CMC CIST</div>
+        <a target="_blank" className="underline mt-4" href="https://drive.google.com/drive/folders/1J0CkqNbmYpPF2xw6PjQ9yKs43t_8ExG0?usp=sharing">My certificates</a>
+      </Content>
+
       <Content
         title="Education"
         icon="fas fa-graduation-cap"
@@ -117,10 +141,10 @@ export default function Home() {
         <div className="font-semibold">
           Hanoi University of Pharmacy
           </div>
-          <div className="font-light italic">
-            2012 - 2017
+        <div className="font-light italic">
+          2012 - 2017
           </div>
-          <div className="mt-4 font-light">Good graduation</div>
+        <div className="mt-4 font-light">Good graduation</div>
       </Content>
       <div className="pt-8"></div>
     </div>
