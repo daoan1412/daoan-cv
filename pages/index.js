@@ -87,11 +87,10 @@ export default function Home() {
           Git - good
           </div>
         <div>
-          React Native, ReactJS, NextJS - intermediate
+          .NET (back end) - good
             </div>
-
         <div>
-          .NET (back end) - intermediate
+          React Native, ReactJS, NextJS - intermediate
             </div>
         <div>
           English - intermediate
@@ -121,8 +120,9 @@ export default function Home() {
             CIVAMS Face Admin
           </span>
           <span>
-            &nbsp; (contribution rate 100%) The app 
-          </span>
+            &nbsp; (contribution rate 100%) The app manages employee information, photo data of facial angles for CIVAMS Face timekeeping system
+          </span> &nbsp; 
+          <a target="_blank" className="underline mt-4" href="https://youtu.be/9P2tSm4tupY">(Video demo)</a>
         </div>
       </Content>
 
